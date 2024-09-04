@@ -1,0 +1,20 @@
+''' Write a Python program that takes a sentence as input, reverses each individual word in the sentence, and returns the modified sentence. The order of the words in the sentence should remain the same.
+
+Example
+Input: "Can you write a Python function"
+Output: "naC uoy etirw a nohtyP noitcnuf"
+
+Logic:
+Split the input sentence into words.
+Reverse each word individually.
+Join the reversed words back together with spaces.'''
+
+code:-
+
+n=input()
+lst=n.split()
+temp=[]
+for i in lst:
+    i=i[::-1]
+    temp.append(i)
+print(" ".join(temp))
