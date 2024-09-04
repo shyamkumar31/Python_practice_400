@@ -1,0 +1,28 @@
+''' Problem: Calculate Even Sum and Odd Sum
+Description:
+Write a program that takes a list of integers and returns a tuple containing the sum of even numbers and the sum of odd numbers in the list.
+input:
+l=[1,2,3,4,5,6,7]
+output: 
+even sum=12
+odd sum = 16
+Examples:
+even_odd_sums([1, 2, 3, 4, 5, 6]) should return (12, 9).
+even_odd_sums([0, -1, -2, -3, -4]) should return (-6, -4).
+even_odd_sums([10, 20, 30]) should return (60, 0). '''
+
+
+code:
+n=list(map(int,input().split()))
+even=[]
+odd=[]
+for i in n:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print(sum(even))
+print(sum(odd))
+
+
+
