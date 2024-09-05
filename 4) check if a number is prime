@@ -1,0 +1,22 @@
+Write a Python program named is_prime that takes an integer as input and returns True if the number is a prime number, and False otherwise.
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. For example, 2, 3, 5, 7, and 11 are prime numbers.
+
+Example Logic:
+To check if a number is prime, follow these steps:
+If the number is less than or equal to 1, it is not a prime number.
+For numbers greater than 1, check if the number can be divided evenly by any integer from 2 up to the square root of the number (inclusive).
+If any of these divisions result in a whole number, the number is not prime.
+If no such divisor is found, the number is prime.
+
+code:-
+
+n=int(input())
+if n<=1:
+    print(False)
+else:
+    for i in range(2,int(n**0.5)):
+        if n%i==0:
+            print(False)
+            break
+    else:
+        print(True)
