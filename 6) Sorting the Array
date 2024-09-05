@@ -1,0 +1,13 @@
+Read n array elements and arrange the elements in sorting order
+input:
+6
+4 5 1 0 5 6
+output:
+0 1 4 5 5 6
+
+code:-
+
+n=int(input())
+m=list(map(str,input().split()))
+m.sort()
+print(" ".join(m))
