@@ -1,0 +1,21 @@
+The Mystery of the Magic Number
+In a bustling city, a famous inventor named Leo discovered an ancient artifact with a special code. To unlock its secrets, Leo needed to determine if a number was a "magic number." According to the artifact, a magic number has a unique property: it is equal to the sum of its own digits each raised to the power of the number of digits in the number.
+For example, the number 153 is a magic number because:
+It has 3 digits.
+Each digit is raised to the power of 3: 1^3, 5^3, 3^3.
+The sum is 1+125+27=153, which matches the original number.
+Leo was curious about a number he found: 9474. To unlock the artifact, he needed to find out if 9474 was a magic number
+Question
+Write a Python function to determine if a given number is a magic number.
+
+code:-
+
+n=input()
+s=0
+for i in n:
+    i=int(i)
+    s+=i**len(n)
+if n==s:
+    print(True)
+else:
+    print(False)
