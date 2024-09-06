@@ -8,6 +8,7 @@ output:
 code:-
 
 n=int(input())
-m=list(map(str,input().split()))
+m=list(map(int,input().split()))
 m.sort()
-print(" ".join(m))
+for i in m:
+    print(i,end=" ")
