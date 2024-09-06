@@ -18,4 +18,4 @@ for i in n:
 if n==s:
     print(True)
 else:
-    print(False)
+    print(False)
