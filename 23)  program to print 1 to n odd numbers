@@ -1,0 +1,15 @@
+Program - 23 / 400
+
+
+write a program to print 1 to n odd numbers
+input:
+4
+output:
+1
+3
+
+code:-
+
+num=int(input())
+for i in range(1,num+1,2):
+    print(i)
