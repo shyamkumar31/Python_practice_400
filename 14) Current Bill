@@ -1,0 +1,52 @@
+Program - 14 / 400
+
+Read two Integer values meter_no, units
+prepare the bill based on the following constraints
+condition                    Description
+units<=50                      2 per unit , service charges:50
+units<=100                    3 per unit , service charges:80
+units<=200                    4 per unit , service charges:100
+units<=300                    5 per unit , service charges:200
+units<=400                    6 per unit , service charges:300
+units<=500                    7 per unit , service charges:300
+units>500                      12 per unit
+
+input:
+4789
+123
+output:
+4789
+592
+Explanation:4789 is meter number,123 is units,it satifies the condition
+123<=200,per unit is 4 rs.so 123*4+100 service charges.
+492+100=592
+output format:
+print meter number in the first line
+print bill in the second line
+
+code:-
+
+meter=int(input())
+units=int(input())
+if units<=50:
+    print(meter)
+    print(units*2+50)
+elif units<=100:
+    print(meter)
+    print(units*3+80)
+elif units<=200:
+    print(meter)
+    print(units*4+100)
+elif units<=300:
+    print(meter)
+    print(units*5+200)
+elif units<=400:
+    print(meter)
+    print(units*6+300)
+elif units<=500:
+    print(meter)
+    print(units*7+300)
+else:
+    print(meter)
+    print(units*12)
+                
