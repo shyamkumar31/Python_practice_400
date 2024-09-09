@@ -1,0 +1,14 @@
+Program - 21 / 400
+
+
+write a program to print the following output
+
+input:
+Happy New Year
+output:
+Happy New Year
+
+code:-
+
+
+print('Happy New Year')
