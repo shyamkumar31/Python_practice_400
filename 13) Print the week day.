@@ -1,0 +1,24 @@
+Write a program to print the week day.
+there are seven weekdays.
+the first week day is Sunday and the last week day is Saturday respectively.if the week day is not in between 1 to 7,print Invalid.
+input:
+1
+output:
+Sunday
+input:
+24
+output:
+Invalid
+
+
+code:-
+
+week=["Invalid","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+user=int(input())
+for i in range(len(week)):
+    if user>=1 and user<=7:
+        print(week[user])
+        break
+    else:
+        print(week[0])
+        break
