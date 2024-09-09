@@ -1,0 +1,15 @@
+write a program to print sum of n even numbers
+
+input:
+5
+output:
+6
+
+
+code:-
+
+num=int(input())
+s=0
+for i in range(0,num+1,2):
+    s+=i
+print(s) 
