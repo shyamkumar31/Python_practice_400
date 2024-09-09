@@ -1,0 +1,21 @@
+Program - 18 / 400
+
+
+Write a program to check the given number is positive or not
+input:
+5
+output:
+positive
+
+input:
+-8
+output:
+negative
+
+code:-
+
+num=int(input())
+if num>=1:
+    print("positive")
+else:
+    print("negative")
