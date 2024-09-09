@@ -1,0 +1,15 @@
+Program - 24 / 400
+
+write a program to print 1 to n even numbers
+input:
+4
+output:
+2
+4
+
+code:-
+
+num=int(input())
+for i in range(0,num+1,2):
+  if i!=0:
+  print(i)
