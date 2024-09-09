@@ -1,0 +1,14 @@
+Program - 20 / 400
+
+
+write a program to print the following output
+
+input:
+This is C programming language
+output:
+This is C programming language
+
+code:-
+
+print("This is C programming language")
+
