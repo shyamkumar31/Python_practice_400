@@ -1,0 +1,38 @@
+Program - 15 / 400
+
+Read an Integer value m
+find the result based on the following constraints
+condition                    Description
+m>=90                          Distinction
+m>=70                          First Class
+m>=60                          Second Class
+m>=50                          Third Class
+m>=40                           Pass
+m<40                             Fail
+
+input:
+75
+output:
+First Class
+
+input:
+44
+output:
+Pass
+
+code:-
+
+marks=int(input())
+if marks>=90:
+    print("Distinction")
+elif marks>=70:
+    print("First Class")
+elif marks>=60:
+    print("Second Class")
+elif marks>=50:
+    print("Third Class")
+elif marks>=40:
+    print("Pass")
+else:
+    print("Fail")
+    
