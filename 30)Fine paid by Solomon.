@@ -1,0 +1,54 @@
+Program - 30 / 400
+
+
+Solomon was driving on a highway at a speed of X km/hour.
+
+To avoid accidents, there are fine imposed on overspeeding as follows:
+
+    No fine if the speed of the car ≤70 km/hour.
+    Rs 500 fine if the speed of the car is strictly greater than 70 and ≤100
+    Rs 2000 fine if the speed of the car is strictly greater than 100
+
+Determine the fine Solomon needs to pay.
+Input Format
+
+    The first line of input will contain a single integer T, denoting the number of test cases.
+    Each test case consists of a single integer X denoting the speed of Solomon's car.
+
+Output Format
+
+For each test case, output the fine paid by Solomon.
+
+Example
+Input :
+7
+40
+110
+70
+100
+69
+101
+85
+Output :
+0
+2000
+0
+500
+0
+2000
+500
+Constraints
+1≤T≤200
+1≤X≤200
+
+code:-
+
+for i in range(int(input())):
+    x=int(input())
+    if x<=70:
+        print(0)
+    elif x>=70 and x<=100:
+        print(500)
+    else:
+        print(2000)
+        
