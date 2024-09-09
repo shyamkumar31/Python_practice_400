@@ -1,0 +1,25 @@
+Program - 28 / 400
+
+
+Task:
+write a program to print who is win .
+rajesh got x marks in ssc exam.
+mahesh got y marks in ssc exam.
+if rajesh got more marks than mahesh,print rajesh as output
+otherwise print mahesh
+input:
+65
+55
+output:
+rajesh
+
+explanation:rajesh got more marks than ramesh(65>55)
+
+code:-
+
+Rajesh=int(input())
+Mahesh=int(input())
+if Rajesh>Mahesh:
+    print("rajesh")
+else:
+    print("mahesh")
