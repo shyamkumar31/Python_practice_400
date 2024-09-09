@@ -1,0 +1,27 @@
+Program - 29 / 400
+
+
+write a program to print the given student is pass or fail.
+read three integer values for three subject marks
+
+input:
+45
+65
+76
+output:
+pass
+
+Constraints
+s1>=35
+s2>=35
+s3>=35
+
+code:-
+
+s1=int(input())
+s2=int(input())
+s3=int(input())
+if s1>=35 and s2>=35 and s3>=35:
+    print("pass")
+else:
+    print("fail")
