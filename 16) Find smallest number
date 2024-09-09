@@ -1,0 +1,23 @@
+Program - 16 / 400
+
+Read a,b,c integer values and write a program to print smallest of three numbers
+
+input:
+5
+4
+7
+output:
+b is small
+
+code:-
+
+a = int(input())
+b = int(input())
+c = int(input())
+if a < b and a < c:
+    print("a is small")
+elif b < a and b < c:
+    print("b is small")
+else:
+    print("c is small")
+
