@@ -1,0 +1,36 @@
+Program - 33 / 400
+
+
+Solo is playing a mobile game. In the game, Solo's character Prince can perform special attacks. However, one special attack costs X mania points to Prince.
+
+If Prince currently has Y mania points, determine the maximum number of special attacks he can perform.
+Input Format
+
+    The first line contains a single integer T — the number of test cases. Then the test cases follow.
+    The first and only line of each test case contains two space-separated integers X and Y — the cost of one special attack and the number of mania points Prince has initially.
+
+Output Format
+
+For each test case, output the maximum number of special attacks Prince can perform.
+
+Example :
+Input :
+3
+10 30
+6 41
+50 2
+Output :
+3
+6
+0
+
+code:-
+
+import math
+T=int(int(input()))
+for i in range(T):
+    x,y=map(int,input().split())
+    if x<y:
+        print(math.floor(y/x))
+    else:
+        print(0)
