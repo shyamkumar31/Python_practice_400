@@ -1,0 +1,31 @@
+Program - 34 / 400
+
+
+There are N students including Ram in a school. The school bus has M seats, and every student in the school travels on the bus.
+It is guaranteed that N≤M, so that everyone will have a seat.
+
+Ram is happy when the school bus is not full.
+Given N and M, your task is to find out whether Ram will be happy.
+Input Format
+
+The only line of input will contain two space-separated integers N and M, denoting the number of students in the school and the number of seats in the school bus respectively.
+Output Format
+
+For each test case, output on a new line the answer: YES, if Ram will be happy, and NO otherwise.
+
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes, and YES will all be treated as identical).
+
+
+Input :2 3
+Output :YES
+
+Constraints
+1≤N≤M≤10
+
+code:-
+
+n,m=map(int,input().split())
+if n<m:
+    print("YES")
+else:
+    print("NO")
