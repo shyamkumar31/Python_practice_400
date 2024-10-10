@@ -1,0 +1,11 @@
+Program:36/400
+
+code:-
+
+t=int(input())
+for i in range(t):
+    x=int(input())
+    if x>24:
+        print("Yes")
+    elif x<=24:
+        print("No")
