@@ -1,0 +1,9 @@
+Program-39/400
+code:-
+
+n=int(input())
+if 121<=n<=123:
+    print("Likely")
+else:
+    print("Unlikely")
+    
